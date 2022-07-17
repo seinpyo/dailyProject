@@ -1,0 +1,15 @@
+#Server
+server:
+  port: 8070
+
+#mySQL
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dailyproject
+    username: root
+    password: ekffu_qqo119
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mvc:
+   pathmatch:
+     matching-strategy: ant_path_matcher 
