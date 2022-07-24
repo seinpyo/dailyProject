@@ -4,12 +4,31 @@ server:
 
 #mySQL
 spring:
+  devtools:
+    livereload:
+      enabled: true
+  freemarker:
+    cache: false
+  thymeleaf:
+    cache: false
   datasource:
     url: jdbc:mysql://localhost:3306/dailyproject
     username: root
     password: ekffu_qqo119
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp  
+    
+  
 mvc:
    pathmatch:
      matching-strategy: ant_path_matcher 
+
+
+mybatis:
+  # mapper 경로 지정
+  mapper-locations: query/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

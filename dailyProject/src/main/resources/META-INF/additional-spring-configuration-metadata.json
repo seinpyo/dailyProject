@@ -1,5 +1,22 @@
-{"properties": [{
-  "name": "mvc.pathmatch.matching-strategy",
-  "type": "java.lang.String",
-  "description": "A description for 'mvc.pathmatch.matching-strategy'"
-}]}
+{"properties": [
+  {
+    "name": "mvc.pathmatch.matching-strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'mvc.pathmatch.matching-strategy'"
+  },
+  {
+    "name": "spring.datasource.devtools.remote.restart",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.devtools.remote.restart'"
+  },
+  {
+    "name": "spring.datasource.mustache.cache",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.mustache.cache'"
+  },
+  {
+    "name": "spring.devtools.livereload.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.devtools.livereload.enabled'"
+  }
+]}

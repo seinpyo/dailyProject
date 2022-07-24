@@ -1,8 +1,0 @@
-#Server
-server.port = 8070
-
-#mySQL
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
-spring.datasource.username=scott
-spring.datasource.password=tiger
