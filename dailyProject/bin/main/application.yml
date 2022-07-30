@@ -10,7 +10,9 @@ spring:
   freemarker:
     cache: false
   thymeleaf:
-    cache: false
+      prefix: classpath:templates/
+      suffix: .html
+      mode: HTML5
   datasource:
     url: jdbc:mysql://localhost:3306/dailyproject
     username: root
@@ -20,6 +22,7 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp  
+  
     
   
 mvc:
@@ -29,6 +32,6 @@ mvc:
 
 mybatis:
   # mapper 경로 지정
-  mapper-locations: query/**/*.xml
+  mapper-locations: resources/query/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
