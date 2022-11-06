@@ -1,4 +1,4 @@
-package com.web.user;
+package com.daily.web.user;
 
 import org.springframework.stereotype.Service;
 
